@@ -1,0 +1,6 @@
+.cardCont {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 1200px;
+}
