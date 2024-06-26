@@ -1,7 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.gameCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .cardCont {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 
-  width: 1200px;
+  width: 1084px;
 }

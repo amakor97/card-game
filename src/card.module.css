@@ -11,9 +11,21 @@
   border-radius: 48px;
   background-color: blueviolet;
 
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
+
+
 .cardClosed {
-  transform: rotateX(80deg);
+  font-size: 0;
+
+  transform: rotateX(180deg);
+}
+
+.cardClosed:hover {
+  transform: rotateX(180deg) scale(105%);
+}
+
+.isClicked {
+  background-color: rgb(35, 106, 138);
 }
