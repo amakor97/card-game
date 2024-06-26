@@ -19,6 +19,8 @@
 .cardClosed {
   font-size: 0;
 
+  cursor: pointer;
+
   transform: rotateX(180deg);
 }
 
