@@ -1,9 +1,8 @@
 import card from "./card.module.css";
 
-export default function Card({cardData, state}) {
-  console.log(state);
+export default function Card({cardData, gameState, onCardSelect}) {
   return (
-    <div className={card.card + ((state === "opened") ? " " : " " + card.cardClose)}>
+    <div className={card.card + ((gameState === "playing") ? " "  + card.cardClosed : " ")} onClick={() => onCardSelect(cardData.id)}>
       {cardData.text}
     </div>
   );
